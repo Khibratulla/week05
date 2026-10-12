@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:/mingw64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++17",
+                "main.cpp",
+                "glad/src/gl.c",
+                "-Iglad/include",
+                "-Iinclude",
+                "-Llib-mingw-w64",
+                "-lglfw3",
+                "-lgdi32",
+                "-o",
+                "main.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "week05: main.cpp + glad + GLFW"
+        }
+    ]
+}

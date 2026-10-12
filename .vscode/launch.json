@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug main.exe",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.exe",
+      "cwd": "${workspaceFolder}",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/mingw64/bin/gdb.exe",
+      "preLaunchTask": "C/C++: g++.exe build active file"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/hiba2/OneDrive/Рабочий стол/week05",
+      "program": "c:/Users/hiba2/OneDrive/Рабочий стол/week05/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
